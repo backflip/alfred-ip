@@ -1,0 +1,22 @@
+{
+  "name": "alfred-ip",
+  "version": "1.0.0",
+  "description": "Alfred workflow using Node.js's os.networkInterfaces() to get the current IP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alfy": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
